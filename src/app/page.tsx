@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen bg-gradient-to-br from-gray-50 to-[#D2D6DB] justify-center">
-      <div className="flex flex-col bg-white p-6 max-w-[340px] max-h-60 gap-4 rounded-lg border-2 border-neutral-200 m-6 mt-64">
+    <main className="flex min-h-screen bg-gradient-to-br from-gray-50 to-[#D2D6DB] justify-center items-center">
+      <div className="flex flex-col bg-white p-6 max-w-[340px] max-h-60 gap-4 rounded-lg border-2 border-neutral-200 m-6 sm:m-0">
         <header className="flex gap-4">
           <Image
             src="/assets/profile-thumbnail.png"
